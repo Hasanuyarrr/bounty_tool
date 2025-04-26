@@ -132,38 +132,47 @@ Aşağıdaki araçları Go ile sisteminize kurabilirsiniz. Bu araçların kurulu
 
 ---
 
-örnek çıktı sonucu
+Tabii, aşağıda daha düzenli bir şekilde yapılandırılmış çıktı sonucu yer alıyor:
 
+---
 
-[domain_adı]/
-├── subdomains/     # Subdomain tarama sonuçları
-│   ├── subfinder.txt
-│   ├── wayback_subdomains.txt
-│   └── all_subdomains.txt
+### Örnek Çıktı Yapısı
+
+```
+[domain_adı]/  
+├── subdomains/               # Subdomain tarama sonuçları  
+│   ├── subfinder.txt         # Subfinder tarafından bulunan subdomain'ler  
+│   ├── wayback_subdomains.txt# Wayback Machine'den çekilen subdomain'ler  
+│   └── all_subdomains.txt    # Tüm subdomain'lerin birleştirilmiş listesi  
 │
-├── live/           # Aktif host'ların bilgileri
-│   ├── httpx_results.json
-│   └── live_hosts.txt
+├── live/                     # Aktif host'ların bilgileri  
+│   ├── live_hosts.txt        # Aktif olarak yanıt veren host'lar  
+│   └── httpx_results.json    # HTTPX tarafından alınan detaylı sonuçlar  
 │
-├── endpoints/      # URL endpoint'leri
-│   ├── raw_endpoints.txt
-│   ├── unique_endpoints.txt
-│   └── parameterized_urls.txt
+├── endpoints/                # URL endpoint'leri  
+│   ├── raw_endpoints.txt     # Tespit edilen ham endpoint'ler  
+│   ├── unique_endpoints.txt  # Tekrarlanmayan endpoint'ler  
+│   └── parameterized_urls.txt# Parametre içeren URL'ler  
 │
-├── status_codes/   # HTTP durum kodlarına göre URL'ler
+├── status_codes/             # HTTP durum kodlarına göre ayrılmış URL'ler  
 │
-├── reports/        # Tarama raporları
-│   └── master_report.html
+├── reports/                  # Tarama raporları  
+│   └── master_report.html    # HTML formatındaki kapsamlı rapor  
 │
-├── screenshots/    # Ekran görüntüleri
+├── screenshots/              # Alınan ekran görüntüleri  
 │
-├── tech/          # Teknoloji stack analizi
-│   └── [domain]_tech.txt
+├── tech/                     # Teknoloji stack analizi sonuçları  
+│   └── [domain]_tech.txt     # Tespit edilen teknolojiler  
 │
-├── responses/     # HTTP yanıtları
+├── responses/                # HTTP yanıtları  
 │
-└── ports/         # Port tarama sonuçları
-    ├── masscan_results.json
-    └── [ip]_ports.json
+├── ports/                    # Port tarama sonuçları  
+│   ├── masscan_results.json  # Masscan sonuçları  
+│   └── [ip]_ports.json       # IP bazlı port tarama çıktıları  
+```
+
+---
+
+Bu yapı, aracın çıktısını hem daha anlaşılır hem de kategorize edilmiş bir şekilde sunar. Her kategori altındaki dosyalar, ilgili tarama süreçlerini ve sonuçlarını detaylı bir şekilde organize eder.
 
 Bu adımları takip ederek araçları sisteminize kurabilir, yapılandırabilir ve `bounty.sh` dosyasını kolaylıkla çalıştırabilirsiniz.
