@@ -159,7 +159,7 @@ Tabii, aşağıda daha düzenli bir şekilde yapılandırılmış çıktı sonuc
 ├── reports/                  # Tarama raporları  
 │   └── master_report.html    # HTML formatındaki kapsamlı rapor  
 │
-├── screenshots/              # Alınan ekran görüntüleri  
+├── screenshots/              # Alınan ekran görüntüleri henüz aktif değil. 
 │
 ├── tech/                     # Teknoloji stack analizi sonuçları  
 │   └── [domain]_tech.txt     # Tespit edilen teknolojiler  
