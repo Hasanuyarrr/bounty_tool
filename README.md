@@ -1,31 +1,52 @@
-#### bounty.sh nedir?
+### Pentest Süreçlerinde Otomasyon: Varlık Keşfi ve Analizi 🔍
 
-Pentest Süreçlerinde Otomasyon: Varlık Keşfi ve Analizi 🔍
-
-Siber güvenlik testlerinde kapsamlı bir varlık keşfi, başarılı bir Pentest veya Bug Bounty sürecinin temel taşlarından biridir.
-Bu noktada, kendi geliştirdiğim araç, süreci hızlandırarak daha verimli hale getiriyor ve aşağıdaki işlemleri otomatik olarak gerçekleştiriyor:
-
-🚀 Özellikler:
-$$
- ✅ Subdomain Keşfi – Bir domain'e ait tüm subdomain’leri tespit eder.
- ✅ Aktif Servis Analizi – Subdomain’lerin aktif olup olmadığını kontrol eder.
- ✅ Endpoint & Parametre Tespiti – Parametre içeren endpoint’leri hedef alarak test süreçlerini optimize eder.
- ✅ Yanıt Analizi – HTTP header’larından status code, title, content type gibi kritik bilgileri toplar.
- ✅ Hassas Bilgi Keşfi – API key, admin panel erişimi, HTTP metotları gibi kritik unsurları belirler.
- ✅ Teknoloji Tespiti – Kullanılan framework ve yazılım teknolojilerini analiz eder.
- ✅ Port Taramaları – Açık portları kategorize ederek dashboard üzerinde sunar.
- ✅ HTML Raporlama – Sonuçları düzenli bir HTML formatında raporlar.
-$$
-
-💡 Önemli Not:
-Aracın çalışması için bazı bağımlılıklar gerekmektedir.
-Tarama süresi, hedef sistemin büyüklüğüne bağlı olarak değişir. 10.000 varlık için yaklaşık 6 saat sürebilir.
-Bu araç, otomatik varlık keşfi yaparak siber güvenlik testlerini bir adım öteye taşıyor ve Pentest ile Bug Bounty süreçlerinde büyük bir kolaylık sağlıyor!
-Ayrıca, HackerOne’da dereceye giren uzmanların metodolojileri takip edilerek oluşturulmuştur.
-
-Tek yapmanız gereken domein adresini vermek geri kalanı kendisi halleder...
+Siber güvenlik testlerinde kapsamlı bir varlık keşfi, başarılı bir Pentest veya Bug Bounty sürecinin temel taşlarından biri olarak öne çıkmaktadır. Bu bağlamda geliştirdiğim araç, süreci hızlandırarak daha verimli hale getirmekte ve aşağıdaki işlemleri tamamen otomatik olarak gerçekleştirmektedir:
 
 ---
+
+### 🚀 Özellikler:
+
+- **✅ Subdomain Keşfi:**  
+  Bir domain'e ait tüm subdomain’leri tespit eder.
+
+- **✅ Aktif Servis Analizi:**  
+  Subdomain’lerin aktif olup olmadığını kontrol eder.
+
+- **✅ Endpoint & Parametre Tespiti:**  
+  Parametre içeren endpoint’leri hedef alarak test süreçlerini optimize eder.
+
+- **✅ Yanıt Analizi:**  
+  HTTP header’larından status code, title, content type gibi kritik bilgileri toplar.
+
+- **✅ Hassas Bilgi Keşfi:**  
+  API key, admin panel erişimi, HTTP metotları gibi kritik unsurları belirler.
+
+- **✅ Teknoloji Tespiti:**  
+  Kullanılan framework ve yazılım teknolojilerini analiz eder.
+
+- **✅ Port Taramaları:**  
+  Açık portları kategorize ederek sonuçları düzenli bir şekilde sunar.
+
+- **✅ HTML Raporlama:**  
+  Sonuçları düzenli bir HTML formatında raporlar.
+
+---
+
+### Kullanım:
+
+Bu araç, verilen bir domain adresine ait tüm varlık keşfi işlemlerini otomatik olarak gerçekleştirir. Tek yapmanız gereken domain adresini vermek; tüm süreçleri kendisi halleder. 
+
+---
+
+💡 **Önemli Notlar:**
+- Aracın çalışabilmesi için bazı bağımlılıklar gerekmektedir. Tüm bağımlılıkların doğru şekilde kurulduğundan emin olun. 
+- Tarama süresi, hedef sistemin büyüklüğüne göre değişiklik gösterebilir. Örneğin, 10.000 varlık için tarama süresi yaklaşık **6 saat** sürebilir.
+- Bu araç, otomatik varlık keşfi yaparak siber güvenlik testlerini bir adım öteye taşır ve Pentest ile Bug Bounty süreçlerinde büyük bir kolaylık sağlar.
+- HackerOne’da dereceye giren siber güvenlik uzmanlarının metodolojileri takip edilerek oluşturulmuştur.
+
+--- 
+
+Bu araç sayesinde, siber güvenlik süreçlerinizi daha hızlı ve etkili bir şekilde yönetebilirsiniz.
 
 ### Araçların Kurulumu ve Yapılandırılması
 
