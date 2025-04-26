@@ -132,4 +132,38 @@ Aşağıdaki araçları Go ile sisteminize kurabilirsiniz. Bu araçların kurulu
 
 ---
 
+örnek çıktı sonucu
+
+
+[domain_adı]/
+├── subdomains/     # Subdomain tarama sonuçları
+│   ├── subfinder.txt
+│   ├── wayback_subdomains.txt
+│   └── all_subdomains.txt
+│
+├── live/           # Aktif host'ların bilgileri
+│   ├── httpx_results.json
+│   └── live_hosts.txt
+│
+├── endpoints/      # URL endpoint'leri
+│   ├── raw_endpoints.txt
+│   ├── unique_endpoints.txt
+│   └── parameterized_urls.txt
+│
+├── status_codes/   # HTTP durum kodlarına göre URL'ler
+│
+├── reports/        # Tarama raporları
+│   └── master_report.html
+│
+├── screenshots/    # Ekran görüntüleri
+│
+├── tech/          # Teknoloji stack analizi
+│   └── [domain]_tech.txt
+│
+├── responses/     # HTTP yanıtları
+│
+└── ports/         # Port tarama sonuçları
+    ├── masscan_results.json
+    └── [ip]_ports.json
+
 Bu adımları takip ederek araçları sisteminize kurabilir, yapılandırabilir ve `bounty.sh` dosyasını kolaylıkla çalıştırabilirsiniz.
