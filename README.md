@@ -13,7 +13,7 @@ Bu noktada, kendi geliştirdiğim araç, süreci hızlandırarak daha verimli ha
  ✅ Hassas Bilgi Keşfi – API key, admin panel erişimi, HTTP metotları gibi kritik unsurları belirler.
  ✅ Teknoloji Tespiti – Kullanılan framework ve yazılım teknolojilerini analiz eder.
  ✅ Port Taramaları – Açık portları kategorize ederek dashboard üzerinde sunar.
- ✅ HTML Raporlama – Sonuçları düzenli bir HTML formatında raporlar.
+**✅ HTML Raporlama – Sonuçları düzenli bir HTML formatında raporlar. **
 
 💡 Önemli Not:
 Aracın çalışması için bazı bağımlılıklar gerekmektedir.
