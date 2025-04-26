@@ -6,6 +6,7 @@ Siber güvenlik testlerinde kapsamlı bir varlık keşfi, başarılı bir Pentes
 Bu noktada, kendi geliştirdiğim araç, süreci hızlandırarak daha verimli hale getiriyor ve aşağıdaki işlemleri otomatik olarak gerçekleştiriyor:
 
 🚀 Özellikler:
+$$
  ✅ Subdomain Keşfi – Bir domain'e ait tüm subdomain’leri tespit eder.
  ✅ Aktif Servis Analizi – Subdomain’lerin aktif olup olmadığını kontrol eder.
  ✅ Endpoint & Parametre Tespiti – Parametre içeren endpoint’leri hedef alarak test süreçlerini optimize eder.
@@ -13,7 +14,8 @@ Bu noktada, kendi geliştirdiğim araç, süreci hızlandırarak daha verimli ha
  ✅ Hassas Bilgi Keşfi – API key, admin panel erişimi, HTTP metotları gibi kritik unsurları belirler.
  ✅ Teknoloji Tespiti – Kullanılan framework ve yazılım teknolojilerini analiz eder.
  ✅ Port Taramaları – Açık portları kategorize ederek dashboard üzerinde sunar.
-**✅ HTML Raporlama – Sonuçları düzenli bir HTML formatında raporlar. **
+ ✅ HTML Raporlama – Sonuçları düzenli bir HTML formatında raporlar.
+$$
 
 💡 Önemli Not:
 Aracın çalışması için bazı bağımlılıklar gerekmektedir.
