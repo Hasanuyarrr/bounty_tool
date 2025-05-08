@@ -176,3 +176,6 @@ Tabii, aşağıda daha düzenli bir şekilde yapılandırılmış çıktı sonuc
 Bu yapı, aracın çıktısını hem daha anlaşılır hem de kategorize edilmiş bir şekilde sunar. Her kategori altındaki dosyalar, ilgili tarama süreçlerini ve sonuçlarını detaylı bir şekilde organize eder.
 
 Bu adımları takip ederek araçları sisteminize kurabilir, yapılandırabilir ve `bounty.sh` dosyasını kolaylıkla çalıştırabilirsiniz.
+
+
+![image](https://github.com/user-attachments/assets/7bcc797b-9b57-42b8-af47-beacd99c4183)
